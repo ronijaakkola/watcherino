@@ -1,0 +1,9 @@
+# Node modules directory
+node_modules
+
+# Logs
+*.log
+
+# Auth and config json files
+auth.json
+config.json

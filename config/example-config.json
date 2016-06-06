@@ -1,4 +1,6 @@
 {
-  "name": "NAME",
-  "prefix": "!"
+  "prefix": "!",
+  "port": "PORT",
+  "token": "TOKEN",
+  "bot-id": "ID"
 }

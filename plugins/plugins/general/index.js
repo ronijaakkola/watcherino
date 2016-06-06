@@ -1,18 +1,12 @@
-function aboutCmd(bot, msg) {
-  bot.sendMessage(msg.channel, "Hei vaan! Nimeni on Donald Norman.");
-}
+import res from './resources.json';
 
-function funnyCmd(bot, msg) {
-  bot.sendMessage(msg.channel, "Hei vaan! Nimeni on Donald Norman, heh!");
+function aboutCmd(client, msg) {
+  msg.channel.sendMessage(res.about);
 }
 
 export default {
   about: {
     func: aboutCmd,
-    desc: "Tells something about this bot"
-  },
-  funny: {
-    func: funnyCmd,
-    desc: "Says something funny (hopefully)"
+    desc: "Info about Watcherino bot"
   }
 };

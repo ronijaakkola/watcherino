@@ -1,7 +1,8 @@
 import res from './resources.json';
 
 function heroCmd(client, msg, params) {
-  msg.channel.sendMessage(res.about);
+  let ans = res.heroes[2].abilities[3].name;
+  msg.channel.sendMessage(ans);
 }
 
 export default {

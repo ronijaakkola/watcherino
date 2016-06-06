@@ -15,8 +15,6 @@ function onMessage(event) {
   // Ignore empty messages and messages from this bot
   if (!event.message) return;
   if (client.User.id === event.message.author.id) return;
-
-  console.log(client.User.username);
   
   let msg = event.message;
   if (msg.content[0] === config.prefix) {
@@ -33,10 +31,10 @@ function onMessage(event) {
     return;
   }
 
-  // FIXME: Not working
   // See if the name of the bot was mentioned
-  if (client.User.isMentioned(event.message)) {
+  if (client.User.isMentioned(msg)) {
     console.log(chalk.cyan('Bot mentioned!'));
+    // FIXME: not random
     var ans = responses.answers[ Math.floor(Math.random() * (responses.answers.length)) ]
     msg.channel.sendMessage(ans);
 

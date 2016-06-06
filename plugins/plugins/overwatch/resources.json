@@ -1,5 +1,321 @@
 {
   "heroes":
-  [ 
+  [
+    {
+      "hero": "Bastion",
+      "class": "Defense",
+      "difficulty": "1/3",
+      "hp": "200 Life, 100 Armor",
+      "abilities":
+      [
+        {
+          "name": "Configuration: Recon",
+          "key": "LM",
+          "damage": "6-20",
+          "headshot": "yes",
+          "ammo": "20",
+          "fire-rate": "8 rps",
+          "cast-time": "",
+          "duration": "",
+          "cooldown-reload": "2s",
+          "heals": "",
+          "shield-strength": "",
+          "range": ""
+        },
+        {
+          "name": "Configuration: Sentry",
+          "key": "LM",
+          "damage": "4-15",
+          "headshot": "yes",
+          "ammo": "200",
+          "fire-rate": "~30 rps",
+          "cast-time": "",
+          "duration": "",
+          "cooldown-reload": "2.5s",
+          "heals": "",
+          "shield-strength": "",
+          "range": ""
+        },
+        {
+          "name": "Reconfigure",
+          "key": "Shift",
+          "damage": "",
+          "headshot": "",
+          "ammo": "",
+          "fire-rate": "",
+          "cast-time": "to Recon 1.5s / to Sentry 0.5s",
+          "duration": "",
+          "cooldown-reload": "",
+          "heals": "",
+          "shield-strength": "",
+          "range": ""
+        },
+        {
+          "name": "Self-Repair",
+          "key": "E",
+          "damage": "",
+          "headshot": "",
+          "ammo": "",
+          "fire-rate": "",
+          "cast-time": "Channeled",
+          "duration": "",
+          "cooldown-reload": "1s (if interrupted)",
+          "heals": "25% hps",
+          "shield-strength": "",
+          "range": ""
+        },
+        {
+          "name": "Configuration: Tank (Ult)",
+          "key": "Q",
+          "damage": "205",
+          "headshot": "no",
+          "ammo": "",
+          "fire-rate": "",
+          "cast-time": "1s",
+          "duration": "8s",
+          "cooldown-reload": "",
+          "heals": "",
+          "shield-strength": "",
+          "range": "4 meter explosion radius"
+        }
+      ]
+    },
+    {
+      "hero": "D. Va",
+      "class": "Tank",
+      "difficulty": "2/3",
+      "hp": "Pilot 150 Life / Mech 100 Life, 400 Armor",
+      "abilities":
+      [
+        {
+          "name": "Pilot: Light Gun",
+          "key": "LM",
+          "damage": "14",
+          "headshot": "yes",
+          "ammo": "20",
+          "fire-rate": "6.66 rps",
+          "cast-time": "",
+          "duration": "",
+          "cooldown-reload": "",
+          "heals": "",
+          "shield-strength": "",
+          "range": ""
+        },
+        {
+          "name": "Pilot: Call Mech (Ult)",
+          "key": "Q",
+          "damage": "50",
+          "headshot": "",
+          "ammo": "",
+          "fire-rate": "",
+          "cast-time": "2s",
+          "duration": "",
+          "cooldown-reload": "",
+          "heals": "",
+          "shield-strength": "",
+          "range": ""
+        },
+        {
+          "name": "Mech: Fusion Cannons",
+          "key": "LM",
+          "damage": "3-5 per pellet",
+          "headshot": "yes",
+          "ammo": "infinite",
+          "fire-rate": "7 rps",
+          "cast-time": "",
+          "duration": "",
+          "cooldown-reload": "no reload",
+          "heals": "",
+          "shield-strength": "",
+          "range": ""
+        },
+        {
+          "name": "Mech: Boosters",
+          "key": "Shift",
+          "damage": "25",
+          "headshot": "",
+          "ammo": "",
+          "fire-rate": "",
+          "cast-time": "",
+          "duration": "2s",
+          "cooldown-reload": "5s",
+          "heals": "",
+          "shield-strength": "",
+          "range": "25 meter flight"
+        },
+        {
+          "name": "Mech: Defense Matrix",
+          "key": "E",
+          "damage": "",
+          "headshot": "",
+          "ammo": "",
+          "fire-rate": "",
+          "cast-time": "",
+          "duration": "3s",
+          "cooldown-reload": "10s",
+          "heals": "",
+          "shield-strength": "",
+          "range": "15 meter long"
+        },
+        {
+          "name": "Mech: Self-Destruct",
+          "key": "Q",
+          "damage": "1000",
+          "headshot": "",
+          "ammo": "",
+          "fire-rate": "",
+          "cast-time": "4s",
+          "duration": "",
+          "cooldown-reload": "",
+          "heals": "",
+          "shield-strength": "",
+          "range": "20 meter explosion radius"
+        }
+      ]
+    },
+    {
+      "hero": "Genji",
+      "class": "Offense",
+      "difficulty": "3/3",
+      "hp": "200 Life",
+      "abilities":
+      [ 
+        {
+          "name": "Shuriken",
+          "key": "LM",
+          "damage": "28 * 3",
+          "headshot": "yes",
+          "ammo": "24",
+          "fire-rate": "3 rps",
+          "cast-time": "",
+          "duration": "",
+          "cooldown-reload": "1s",
+          "heals": "",
+          "shield-strength": "",
+          "range": ""
+        },
+        {
+          "name": "Fan of Blades",
+          "key": "RM",
+          "damage": "28 * 3",
+          "headshot": "yes",
+          "ammo": "24",
+          "fire-rate": "5.3 rps",
+          "cast-time": "",
+          "duration": "",
+          "cooldown-reload": "1s",
+          "heals": "",
+          "shield-strength": "",
+          "range": ""
+        },
+        {
+          "name": "Swift Strike",
+          "key": "Shift",
+          "damage": "50",
+          "headshot": "no",
+          "ammo": "",
+          "fire-rate": "",
+          "cast-time": "",
+          "duration": "",
+          "cooldown-reload": "8s",
+          "heals": "",
+          "shield-strength": "",
+          "range": "14-15 meters long"
+        },
+        {
+          "name": "Deflect",
+          "key": "E",
+          "damage": "",
+          "headshot": "yes",
+          "ammo": "",
+          "fire-rate": "",
+          "cast-time": "",
+          "duration": "2s",
+          "cooldown-reload": "8s",
+          "heals": "",
+          "shield-strength": "",
+          "range": ""
+        },
+        {
+          "name": "Dragonblade (Ult)",
+          "key": "Q",
+          "damage": "120",
+          "headshot": "no",
+          "ammo": "",
+          "fire-rate": "1 swing/s",
+          "cast-time": "1s",
+          "duration": "8s",
+          "cooldown-reload": "",
+          "heals": "",
+          "shield-strength": "",
+          "range": "5 meter swing"
+        }
+      ]
+    },
+    {
+      "hero": "Hanzo",
+      "class": "Defense",
+      "difficulty": "3/3",
+      "hp": "200 Life",
+      "abilities":
+      [
+        {
+          "name": "Storm bow",
+          "key": "LM",
+          "damage": "29-125",
+          "headshot": "yes",
+          "ammo": "infinite",
+          "fire-rate": "1 rps",
+          "cast-time": "0.5s to full",
+          "duration": "",
+          "cooldown-reload": "",
+          "heals": "",
+          "shield-strength": "",
+          "range": ""
+        },
+        {
+          "name": "Sonic Arrow",
+          "key": "Shift",
+          "damage": "29-125",
+          "headshot": "yes",
+          "ammo": "",
+          "fire-rate": "",
+          "cast-time": "0.5s to full",
+          "duration": "",
+          "cooldown-reload": "20s",
+          "heals": "",
+          "shield-strength": "",
+          "range": "10 meter reveal radius"
+        },
+        {
+          "name": "Scatter Arrow",
+          "key": "E",
+          "damage": "75, 125 unscattered",
+          "headshot": "yes, but fragments cannot headshot",
+          "ammo": "",
+          "fire-rate": "",
+          "cast-time": "0.5s to full",
+          "duration": "",
+          "cooldown-reload": "10s",
+          "heals": "",
+          "shield-strength": "",
+          "range": ""
+        },
+        {
+          "name": "Dragonstrike (Ult)",
+          "key": "Q",
+          "damage": ">200 dps, initial arrow 125",
+          "headshot": "initial arrow can headshot",
+          "ammo": "",
+          "fire-rate": "",
+          "cast-time": "1.5s",
+          "duration": "",
+          "cooldown-reload": "",
+          "heals": "",
+          "shield-strength": "",
+          "range": "4 meter radius"
+        }
+      ]
+    }
   ]
 }

@@ -3,7 +3,7 @@
   [
     {
       "hero": "Bastion",
-      "class": "Defense",
+      "role": "Defense",
       "difficulty": "1/3",
       "hp": "200 Life, 100 Armor",
       "abilities":
@@ -82,7 +82,7 @@
     },
     {
       "hero": "D. Va",
-      "class": "Tank",
+      "role": "Tank",
       "difficulty": "2/3",
       "hp": "Pilot 150 Life / Mech 100 Life, 400 Armor",
       "abilities":
@@ -118,7 +118,7 @@
         {
           "name": "Mech: Fusion Cannons",
           "key": "LM",
-          "damage": "3-5 per pellet",
+          "damage": "0.5-3 * 8",
           "headshot": "yes",
           "ammo": "infinite",
           "fire-rate": "7 rps",
@@ -175,7 +175,7 @@
     },
     {
       "hero": "Genji",
-      "class": "Offense",
+      "role": "Offense",
       "difficulty": "3/3",
       "hp": "200 Life",
       "abilities":
@@ -254,7 +254,7 @@
     },
     {
       "hero": "Hanzo",
-      "class": "Defense",
+      "role": "Defense",
       "difficulty": "3/3",
       "hp": "200 Life",
       "abilities":
@@ -316,6 +316,509 @@
           "range": "4 meter radius"
         }
       ]
+    },
+    {
+      "hero": "Junkrat",
+      "role": "Defense",
+      "difficulty": "2/3",
+      "hp": "200 Life",
+      "abilities":
+      [
+        {
+          "name": "Frag Launcher",
+          "key": "LM",
+          "damage": "120 direct hit",
+          "headshot": "no",
+          "ammo": "5",
+          "fire-rate": "1.66 rps",
+          "cast-time": "",
+          "duration": "",
+          "cooldown-reload": "1.5s",
+          "heals": "",
+          "shield-strength": "",
+          "range": "2 meter explosion radius"
+        },
+        {
+          "name": "Concussion Mine",
+          "key": "Shift",
+          "damage": "120",
+          "headshot": "no",
+          "ammo": "",
+          "fire-rate": "",
+          "cast-time": "",
+          "duration": "",
+          "cooldown-reload": "8s",
+          "heals": "",
+          "shield-strength": "",
+          "range": "3 meter explosion radius"
+        },
+        {
+          "name": "Steel Trap",
+          "key": "E",
+          "damage": "80",
+          "headshot": "",
+          "ammo": "",
+          "fire-rate": "",
+          "cast-time": "",
+          "duration": "3s",
+          "cooldown-reload": "10s",
+          "heals": "",
+          "shield-strength": "",
+          "range": "1 meter trap range"
+        },
+        {
+          "name": "Rip-Tire (Ult)",
+          "key": "Q",
+          "damage": "600",
+          "headshot": "no",
+          "ammo": "",
+          "fire-rate": "",
+          "cast-time": "1s",
+          "duration": "10s",
+          "cooldown-reload": "",
+          "heals": "",
+          "shield-strength": "",
+          "range": "10 meter explosion radius"
+        },
+        {
+          "name": "Total Mayhem (Passive)",
+          "key": "",
+          "damage": "max 300",
+          "headshot": "",
+          "ammo": "",
+          "fire-rate": "",
+          "cast-time": "",
+          "duration": "",
+          "cooldown-reload": "",
+          "heals": "",
+          "shield-strength": "",
+          "range": ""
+        }
+      ]
+    },
+    {
+      "hero": "Lucio",
+      "role": "Support",
+      "difficulty": "2/3",
+      "hp": "200 Life",
+      "abilities":
+      [
+        {
+          "name": "Sonic Amplifier",
+          "key": "LM",
+          "damage": "16 * 4",
+          "headshot": "yes",
+          "ammo": "20",
+          "fire-rate": "4 rps",
+          "cast-time": "",
+          "duration": "",
+          "cooldown-reload": "1.25s",
+          "heals": "",
+          "shield-strength": "",
+          "range": ""
+        },
+        {
+          "name": "Soundwave",
+          "key": "RM",
+          "damage": "25",
+          "headshot": "no",
+          "ammo": "4 per burst",
+          "fire-rate": "",
+          "cast-time": "",
+          "duration": "",
+          "cooldown-reload": "4s",
+          "heals": "",
+          "shield-strength": "",
+          "range": ""
+        },
+        {
+          "name": "Crossfade: Speed",
+          "key": "Shift",
+          "damage": "",
+          "headshot": "",
+          "ammo": "",
+          "fire-rate": "",
+          "cast-time": "",
+          "duration": "",
+          "cooldown-reload": "",
+          "heals": "",
+          "shield-strength": "",
+          "range": "30 meters"
+        },
+        {
+          "name": "Crossfade: Heal",
+          "key": "Shift",
+          "damage": "",
+          "headshot": "",
+          "ammo": "",
+          "fire-rate": "",
+          "cast-time": "",
+          "duration": "",
+          "cooldown-reload": "",
+          "heals": "25 per 2s",
+          "shield-strength": "",
+          "range": "30 meters"
+        },
+        {
+          "name": "Amp It Up: Speed",
+          "key": "E",
+          "damage": "",
+          "headshot": "",
+          "ammo": "",
+          "fire-rate": "",
+          "cast-time": "",
+          "duration": "3s",
+          "cooldown-reload": "12s",
+          "heals": "",
+          "shield-strength": "",
+          "range": "30 meters"
+        },
+        {
+          "name": "Amp It Up: Heal",
+          "key": "E",
+          "damage": "",
+          "headshot": "",
+          "ammo": "",
+          "fire-rate": "",
+          "cast-time": "",
+          "duration": "3s",
+          "cooldown-reload": "12s",
+          "heals": "120 per 3s",
+          "shield-strength": "",
+          "range": "30 meters"
+        },
+        {
+          "name": "Sound Barrier (Ult)",
+          "key": "Q",
+          "damage": "",
+          "headshot": "",
+          "ammo": "",
+          "fire-rate": "",
+          "cast-time": "",
+          "duration": "6s",
+          "cooldown-reload": "",
+          "heals": "",
+          "shield-strength": "500 Life",
+          "range": ""
+        }
+      ]
+    },
+    {
+      "hero": "McCree",
+      "role": "Offense",
+      "difficulty": "2/3",
+      "hp": "200 Life",
+      "abilities":
+      [
+        {
+          "name": "Peacekeeper",
+          "key": "LM",
+          "damage": "35-70",
+          "headshot": "yes",
+          "ammo": "6",
+          "fire-rate": "2 rps",
+          "cast-time": "",
+          "duration": "",
+          "cooldown-reload": "1.5s",
+          "heals": "",
+          "shield-strength": "",
+          "range": ""
+        },
+        {
+          "name": "Fan the Hammer (Alt-Fire)",
+          "key": "RM",
+          "damage": "35-70 * 6",
+          "headshot": "no",
+          "ammo": "6",
+          "fire-rate": "6 rps",
+          "cast-time": "",
+          "duration": "",
+          "cooldown-reload": "2s",
+          "heals": "",
+          "shield-strength": "",
+          "range": ""
+        },
+        {
+          "name": "Combat Roll",
+          "key": "Shift",
+          "damage": "",
+          "headshot": "",
+          "ammo": "",
+          "fire-rate": "",
+          "cast-time": "",
+          "duration": "",
+          "cooldown-reload": "8s",
+          "heals": "",
+          "shield-strength": "",
+          "range": "6 meter roll"
+        },
+        {
+          "name": "Flashbang",
+          "key": "E",
+          "damage": "25 (0.7s stun)",
+          "headshot": "no",
+          "ammo": "",
+          "fire-rate": "",
+          "cast-time": "",
+          "duration": "",
+          "cooldown-reload": "10s",
+          "heals": "",
+          "shield-strength": "",
+          "range": "5 meter throw"
+        },
+        {
+          "name": "Deadeye",
+          "key": "Q",
+          "damage": "~170 per charged s",
+          "headshot": "",
+          "ammo": "",
+          "fire-rate": "",
+          "cast-time": "",
+          "duration": "6s",
+          "cooldown-reload": "",
+          "heals": "",
+          "shield-strength": "",
+          "range": ""
+        }
+      ]
+    },
+    {
+      "hero": "Mei",
+      "role": "Defense",
+      "difficulty": "3/3",
+      "hp": "250 Life",
+      "abilities":
+      [
+        {
+          "name": "Endothermic Blaster",
+          "key": "LM",
+          "damage": "45 dps",
+          "headshot": "no",
+          "ammo": "200",
+          "fire-rate": "20 rps",
+          "cast-time": "",
+          "duration": "",
+          "cooldown-reload": "",
+          "heals": "",
+          "shield-strength": "",
+          "range": "10 meters"
+        },
+        {
+          "name": "Icicle",
+          "key": "RM",
+          "damage": "22-75",
+          "headshot": "yes",
+          "ammo": "25 per shot",
+          "fire-rate": "1.8 rps",
+          "cast-time": "",
+          "duration": "",
+          "cooldown-reload": "",
+          "heals": "",
+          "shield-strength": "",
+          "range": ""
+        },
+        {
+          "name": "Cryo-Freeze",
+          "key": "Shift",
+          "damage": "",
+          "headshot": "",
+          "ammo": "",
+          "fire-rate": "",
+          "cast-time": "",
+          "duration": "4s max",
+          "cooldown-reload": "12s",
+          "heals": "150",
+          "shield-strength": "",
+          "range": ""
+        },
+        {
+          "name": "Ice Wall",
+          "key": "E",
+          "damage": "",
+          "headshot": "",
+          "ammo": "",
+          "fire-rate": "",
+          "cast-time": "",
+          "duration": "4.5s",
+          "cooldown-reload": "10s",
+          "heals": "",
+          "shield-strength": "has 500 Life",
+          "range": "35 meters cast range"
+        },
+        {
+          "name": "Blizzard (Ult)",
+          "key": "Q",
+          "damage": "97",
+          "headshot": "",
+          "ammo": "",
+          "fire-rate": "",
+          "cast-time": "1.5s",
+          "duration": "5s",
+          "cooldown-reload": "",
+          "heals": "",
+          "shield-strength": "",
+          "range": "8 meter radius"
+        }
+      ]
+    },
+    {
+      "hero": "Mercy",
+      "role": "Support",
+      "difficulty": "1/3",
+      "hp": "200 Life",
+      "abilities":
+      [
+        {
+          "name": "Caduceus Staff: Heal",
+          "key": "LM",
+          "damage": "",
+          "headshot": "",
+          "ammo": "",
+          "fire-rate": "",
+          "cast-time": "channeled",
+          "duration": "",
+          "cooldown-reload": "",
+          "heals": "50 hps",
+          "shield-strength": "",
+          "range": "15 meter link"
+        },
+        {
+          "name": "Caduceus Staff: Damage",
+          "key": "RM",
+          "damage": "30& damage amp",
+          "headshot": "",
+          "ammo": "",
+          "fire-rate": "",
+          "cast-time": "channeled",
+          "duration": "",
+          "cooldown-reload": "",
+          "heals": "",
+          "shield-strength": "",
+          "range": "15 meter link"
+        },
+        {
+          "name": "Cadueus Blaster",
+          "key": "2/LM",
+          "damage": "20",
+          "headshot": "yes",
+          "ammo": "20",
+          "fire-rate": "5 rps",
+          "cast-time": "",
+          "duration": "",
+          "cooldown-reload": "1s",
+          "heals": "",
+          "shield-strength": "",
+          "range": ""
+        },
+        {
+          "name": "Guardian Angel",
+          "key": "Shift",
+          "damage": "",
+          "headshot": "",
+          "ammo": "",
+          "fire-rate": "",
+          "cast-time": "",
+          "duration": "",
+          "cooldown-reload": "2s",
+          "heals": "",
+          "shield-strength": "",
+          "range": "30 meter range"
+        },
+        {
+          "name": "Resurrect (Ult)",
+          "key": "Q",
+          "damage": "",
+          "headshot": "",
+          "ammo": "",
+          "fire-rate": "",
+          "cast-time": "1s",
+          "duration": "",
+          "cooldown-reload": "",
+          "heals": "",
+          "shield-strength": "",
+          "range": "15 meters cast range"
+        }
+      ]
+    },
+    {
+      "hero": "Pharah",
+      "role": "Offense",
+      "difficulty": "1/3",
+      "hp": "200 Life",
+      "abilities":
+      [
+        {
+          "name": "Rocket Launcher",
+          "key": "LM",
+          "damage": "120",
+          "headshot": "no",
+          "ammo": "6",
+          "fire-rate": "1.1 rps",
+          "cast-time": "",
+          "duration": "",
+          "cooldown-reload": "1s",
+          "heals": "",
+          "shield-strength": "",
+          "range": "3 meter explosion radius"
+        },
+        {
+          "name": "Jump Jet",
+          "key": "Shift",
+          "damage": "",
+          "headshot": "",
+          "ammo": "",
+          "fire-rate": "",
+          "cast-time": "",
+          "duration": "",
+          "cooldown-reload": "10s",
+          "heals": "",
+          "shield-strength": "",
+          "range": ""
+        },
+        {
+          "name": "Hover Jets",
+          "key": "Space",
+          "damage": "",
+          "headshot": "",
+          "ammo": "",
+          "fire-rate": "",
+          "cast-time": "Channeled",
+          "duration": "2s",
+          "cooldown-reload": "2s",
+          "heals": "",
+          "shield-strength": "",
+          "range": ""
+        },
+        {
+          "name": "Concussive Blast",
+          "key": "E",
+          "damage": "knockback",
+          "headshot": "",
+          "ammo": "",
+          "fire-rate": "",
+          "cast-time": "",
+          "duration": "",
+          "cooldown-reload": "12s",
+          "heals": "",
+          "shield-strength": "",
+          "range": "8 meter explosion radius"
+        },
+        {
+          "name": "Barrage (Ult)",
+          "key": "Q",
+          "damage": "3600 total",
+          "headshot": "no",
+          "ammo": "",
+          "fire-rate": "~30 rockets/s",
+          "cast-time": "",
+          "duration": "3s",
+          "cooldown-reload": "",
+          "heals": "",
+          "shield-strength": "",
+          "range": ""
+        }
+      ]
     }
   ]
 }
+  

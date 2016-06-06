@@ -1,7 +1,7 @@
 import res from './resources.json';
 
-function aboutCmd(client, msg) {
-  msg.channel.sendMessage(res.about);
+function aboutCmd(client, ev) {
+  ev.message.channel.sendMessage(res.about);
 }
 
 export default {

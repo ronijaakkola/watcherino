@@ -19,7 +19,7 @@ function onMessage(event) {
   let msg = event.message;
   if (msg.content[0] === config.prefix) {
     let command = msg.content.toLowerCase().split(' ')[0].substring(1);
-    let params = msg.content.substring(command.length + 2);
+    let params = msg.content.substring(command.length + 2).split(' ').filter(function(el) {return el.length != 0});
     let cmd = commands.default[command];
 
     console.log("Command: " + command);
@@ -27,7 +27,7 @@ function onMessage(event) {
 
     // If command was found from the plugins, call its function
     if (cmd) 
-      cmd.func(client, msg, params);
+      cmd.func(client, event, params);
     return;
   }
 

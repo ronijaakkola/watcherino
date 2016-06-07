@@ -20,7 +20,8 @@
           "cooldown-reload": "2s",
           "heals": "",
           "shield-strength": "",
-          "range": ""
+          "range": "",
+          "notes": ""
         },
         {
           "name": "Configuration: Sentry",
@@ -34,7 +35,8 @@
           "cooldown-reload": "2.5s",
           "heals": "",
           "shield-strength": "",
-          "range": ""
+          "range": "",
+          "notes": "Immobilized while in Sentry Mode. Can be headshot on it's core located on the back."
         },
         {
           "name": "Reconfigure",
@@ -48,7 +50,8 @@
           "cooldown-reload": "",
           "heals": "",
           "shield-strength": "",
-          "range": ""
+          "range": "",
+          "notes": "Changing Modes via Reconfigure will reload your weapon."
         },
         {
           "name": "Self-Repair",
@@ -62,7 +65,8 @@
           "cooldown-reload": "1s (if interrupted)",
           "heals": "25% hps",
           "shield-strength": "",
-          "range": ""
+          "range": "",
+          "notes": "Can be used in any mode: Recon, Sentry, or Tank. Immobilized while channeling Self-Repair."
         },
         {
           "name": "Configuration: Tank (Ult)",
@@ -76,7 +80,8 @@
           "cooldown-reload": "",
           "heals": "",
           "shield-strength": "",
-          "range": "4 meter explosion radius"
+          "range": "4 meter explosion radius",
+          "notes": "Activating Tank Mode will add 150 Armor HP to your current health, but not heal any missing health."
         }
       ]
     },
@@ -99,7 +104,8 @@
           "cooldown-reload": "",
           "heals": "",
           "shield-strength": "",
-          "range": ""
+          "range": "",
+          "notes": ""
         },
         {
           "name": "Pilot: Call Mech (Ult)",
@@ -113,7 +119,8 @@
           "cooldown-reload": "",
           "heals": "",
           "shield-strength": "",
-          "range": ""
+          "range": "",
+          "notes": "Can not call a new mech after Self-Destruct until explosion has occured."
         },
         {
           "name": "Mech: Fusion Cannons",
@@ -127,7 +134,8 @@
           "cooldown-reload": "no reload",
           "heals": "",
           "shield-strength": "",
-          "range": ""
+          "range": "",
+          "notes": ""
         },
         {
           "name": "Mech: Boosters",
@@ -141,7 +149,8 @@
           "cooldown-reload": "5s",
           "heals": "",
           "shield-strength": "",
-          "range": "25 meter flight"
+          "range": "25 meter flight",
+          "notes": ""
         },
         {
           "name": "Mech: Defense Matrix",
@@ -155,10 +164,11 @@
           "cooldown-reload": "10s",
           "heals": "",
           "shield-strength": "",
-          "range": "15 meter long"
+          "range": "15 meter long",
+          "notes": "Destroys all projectiles with its cone of effect."
         },
         {
-          "name": "Mech: Self-Destruct",
+          "name": "Mech: Self-Destruct (Ult)",
           "key": "Q",
           "damage": "1000",
           "headshot": "",
@@ -169,7 +179,8 @@
           "cooldown-reload": "",
           "heals": "",
           "shield-strength": "",
-          "range": "20 meter explosion radius"
+          "range": "20 meter explosion radius",
+          "notes": "Self-Destruct knocks back any enemies that survive the damage. Can be used during Boosters."
         }
       ]
     },
@@ -192,7 +203,8 @@
           "cooldown-reload": "1s",
           "heals": "",
           "shield-strength": "",
-          "range": ""
+          "range": "",
+          "notes": ""
         },
         {
           "name": "Fan of Blades",
@@ -206,7 +218,8 @@
           "cooldown-reload": "1s",
           "heals": "",
           "shield-strength": "",
-          "range": ""
+          "range": "",
+          "notes": ""
         },
         {
           "name": "Swift Strike",
@@ -220,7 +233,8 @@
           "cooldown-reload": "8s",
           "heals": "",
           "shield-strength": "",
-          "range": "14-15 meters long"
+          "range": "14-15 meters long",
+          "notes": "Swift Strike cooldown resets on any enemy elimination and on Dragonblade activation. Swift Strike can be used during Dragonblade."
         },
         {
           "name": "Deflect",
@@ -234,7 +248,8 @@
           "cooldown-reload": "8s",
           "heals": "",
           "shield-strength": "",
-          "range": ""
+          "range": "",
+          "notes": "Deflected projectiles can headshot if the original projectiles can. Deflect can be used during Dragonblade."
         },
         {
           "name": "Dragonblade (Ult)",
@@ -248,7 +263,8 @@
           "cooldown-reload": "",
           "heals": "",
           "shield-strength": "",
-          "range": "5 meter swing"
+          "range": "5 meter swing",
+          "notes": ""
         }
       ]
     },
@@ -271,7 +287,8 @@
           "cooldown-reload": "",
           "heals": "",
           "shield-strength": "",
-          "range": ""
+          "range": "",
+          "notes": ""
         },
         {
           "name": "Sonic Arrow",
@@ -285,7 +302,8 @@
           "cooldown-reload": "20s",
           "heals": "",
           "shield-strength": "",
-          "range": "10 meter reveal radius"
+          "range": "10 meter reveal radius",
+          "notes": "Sticks and moves along with enemy players and barriers."
         },
         {
           "name": "Scatter Arrow",
@@ -299,7 +317,8 @@
           "cooldown-reload": "10s",
           "heals": "",
           "shield-strength": "",
-          "range": ""
+          "range": "",
+          "notes": "Scatter Arrow: 6 arrows bounce x times. Scatter Arrow can do damage before spliting."
         },
         {
           "name": "Dragonstrike (Ult)",
@@ -313,7 +332,8 @@
           "cooldown-reload": "",
           "heals": "",
           "shield-strength": "",
-          "range": "4 meter radius"
+          "range": "4 meter radius",
+          "notes": "Dragonstrike pierces walls and shields, and travels infinitely. Touching any part of Dragonstrike deals damage. Hanzo can turn while using Dragonstrike."
         }
       ]
     },
@@ -336,7 +356,8 @@
           "cooldown-reload": "1.5s",
           "heals": "",
           "shield-strength": "",
-          "range": "2 meter explosion radius"
+          "range": "2 meter explosion radius",
+          "notes": "Frag Launcher bombs explode shortly after the third bounce."
         },
         {
           "name": "Concussion Mine",
@@ -350,7 +371,8 @@
           "cooldown-reload": "8s",
           "heals": "",
           "shield-strength": "",
-          "range": "3 meter explosion radius"
+          "range": "3 meter explosion radius",
+          "notes": "Concussion Mine inflicts no self-damage (does still knock back). Concussion Mine, Steel Trap, and Rip-Tire can be destroyed prematurely by enemy fire. Concussion Mine can not stick to enemy Heroes or shields."
         },
         {
           "name": "Steel Trap",
@@ -364,7 +386,8 @@
           "cooldown-reload": "10s",
           "heals": "",
           "shield-strength": "",
-          "range": "1 meter trap range"
+          "range": "1 meter trap range",
+          "notes": "Enemies stuck in Steel Trap can still fire primary weapons."
         },
         {
           "name": "Rip-Tire (Ult)",
@@ -378,11 +401,12 @@
           "cooldown-reload": "",
           "heals": "",
           "shield-strength": "",
-          "range": "10 meter explosion radius"
+          "range": "10 meter explosion radius",
+          "notes": "Rip-Tire can damage Junkrat."
         },
         {
-          "name": "Total Mayhem (Passive)",
-          "key": "",
+          "name": "Total Mayhem",
+          "key": "Passive",
           "damage": "max 300",
           "headshot": "",
           "ammo": "",
@@ -392,7 +416,8 @@
           "cooldown-reload": "",
           "heals": "",
           "shield-strength": "",
-          "range": ""
+          "range": "",
+          "notes": ""
         }
       ]
     },
@@ -415,7 +440,8 @@
           "cooldown-reload": "1.25s",
           "heals": "",
           "shield-strength": "",
-          "range": ""
+          "range": "",
+          "notes": ""
         },
         {
           "name": "Soundwave",
@@ -429,7 +455,8 @@
           "cooldown-reload": "4s",
           "heals": "",
           "shield-strength": "",
-          "range": ""
+          "range": "",
+          "notes": ""
         },
         {
           "name": "Crossfade: Speed",
@@ -443,7 +470,8 @@
           "cooldown-reload": "",
           "heals": "",
           "shield-strength": "",
-          "range": "30 meters"
+          "range": "30 meters",
+          "notes": "Increases base movement speed by ~30%."
         },
         {
           "name": "Crossfade: Heal",
@@ -457,7 +485,8 @@
           "cooldown-reload": "",
           "heals": "25 per 2s",
           "shield-strength": "",
-          "range": "30 meters"
+          "range": "30 meters",
+          "notes": ""
         },
         {
           "name": "Amp It Up: Speed",
@@ -471,7 +500,8 @@
           "cooldown-reload": "12s",
           "heals": "",
           "shield-strength": "",
-          "range": "30 meters"
+          "range": "30 meters",
+          "notes": "Increases base movement speed by ~110%."
         },
         {
           "name": "Amp It Up: Heal",
@@ -485,7 +515,8 @@
           "cooldown-reload": "12s",
           "heals": "120 per 3s",
           "shield-strength": "",
-          "range": "30 meters"
+          "range": "30 meters",
+          "notes": ""
         },
         {
           "name": "Sound Barrier (Ult)",
@@ -499,7 +530,8 @@
           "cooldown-reload": "",
           "heals": "",
           "shield-strength": "500 Life",
-          "range": ""
+          "range": "",
+          "notes": ""
         }
       ]
     },
@@ -522,7 +554,8 @@
           "cooldown-reload": "1.5s",
           "heals": "",
           "shield-strength": "",
-          "range": ""
+          "range": "",
+          "notes": ""
         },
         {
           "name": "Fan the Hammer (Alt-Fire)",
@@ -536,7 +569,8 @@
           "cooldown-reload": "2s",
           "heals": "",
           "shield-strength": "",
-          "range": ""
+          "range": "",
+          "notes": ""
         },
         {
           "name": "Combat Roll",
@@ -550,7 +584,8 @@
           "cooldown-reload": "8s",
           "heals": "",
           "shield-strength": "",
-          "range": "6 meter roll"
+          "range": "6 meter roll",
+          "notes": "Combat Roll instantly refills ammo."
         },
         {
           "name": "Flashbang",
@@ -564,7 +599,8 @@
           "cooldown-reload": "10s",
           "heals": "",
           "shield-strength": "",
-          "range": "5 meter throw"
+          "range": "5 meter throw",
+          "notes": ""
         },
         {
           "name": "Deadeye",
@@ -578,7 +614,8 @@
           "cooldown-reload": "",
           "heals": "",
           "shield-strength": "",
-          "range": ""
+          "range": "",
+          "notes": "Deadeye will use 50% Ultimate charge on activation, and 50% upon shooting."
         }
       ]
     },
@@ -601,7 +638,8 @@
           "cooldown-reload": "",
           "heals": "",
           "shield-strength": "",
-          "range": "10 meters"
+          "range": "10 meters",
+          "notes": "Each hit adds a consecutive slow to the target; Target freezes after 70 damage."
         },
         {
           "name": "Icicle",
@@ -615,7 +653,8 @@
           "cooldown-reload": "",
           "heals": "",
           "shield-strength": "",
-          "range": ""
+          "range": "",
+          "notes": ""
         },
         {
           "name": "Cryo-Freeze",
@@ -629,7 +668,8 @@
           "cooldown-reload": "12s",
           "heals": "150",
           "shield-strength": "",
-          "range": ""
+          "range": "",
+          "notes": "A Mei in Cryo-Freeze will still contest an objective. Invunerable during Cryo-Freeze, but cannot attack or move. Casting Cryo-Freeze removes Orb of Discord."
         },
         {
           "name": "Ice Wall",
@@ -642,8 +682,9 @@
           "duration": "4.5s",
           "cooldown-reload": "10s",
           "heals": "",
-          "shield-strength": "has 500 Life",
-          "range": "35 meters cast range"
+          "shield-strength": "500 Life per ice pillar, 5 pillars in total",
+          "range": "35 meters cast range",
+          "notes": "Ice Wall can be destoyed prematurely from damage."
         },
         {
           "name": "Blizzard (Ult)",
@@ -657,7 +698,8 @@
           "cooldown-reload": "",
           "heals": "",
           "shield-strength": "",
-          "range": "8 meter radius"
+          "range": "8 meter radius",
+          "notes": ""
         }
       ]
     },
@@ -680,12 +722,13 @@
           "cooldown-reload": "",
           "heals": "50 hps",
           "shield-strength": "",
-          "range": "15 meter link"
+          "range": "15 meter link",
+          "notes": "Mercy does not gain charge from healing allies' self-damage."
         },
         {
           "name": "Caduceus Staff: Damage",
           "key": "RM",
-          "damage": "30& damage amp",
+          "damage": "",
           "headshot": "",
           "ammo": "",
           "fire-rate": "",
@@ -694,7 +737,8 @@
           "cooldown-reload": "",
           "heals": "",
           "shield-strength": "",
-          "range": "15 meter link"
+          "range": "15 meter link",
+          "notes": "The Damage Amp on Mercy's Staff is 30%. Mercy can gain charge from damage amping other players."
         },
         {
           "name": "Cadueus Blaster",
@@ -708,7 +752,8 @@
           "cooldown-reload": "1s",
           "heals": "",
           "shield-strength": "",
-          "range": ""
+          "range": "",
+          "notes": ""
         },
         {
           "name": "Guardian Angel",
@@ -722,7 +767,8 @@
           "cooldown-reload": "2s",
           "heals": "",
           "shield-strength": "",
-          "range": "30 meter range"
+          "range": "30 meter range",
+          "notes": ""
         },
         {
           "name": "Resurrect (Ult)",
@@ -736,7 +782,8 @@
           "cooldown-reload": "",
           "heals": "",
           "shield-strength": "",
-          "range": "15 meters cast range"
+          "range": "15 meters cast range",
+          "notes": "Must resurrect players within 10 seconds of death."
         }
       ]
     },
@@ -759,7 +806,8 @@
           "cooldown-reload": "1s",
           "heals": "",
           "shield-strength": "",
-          "range": "3 meter explosion radius"
+          "range": "3 meter explosion radius",
+          "notes": "Rockets negate other rockets if they collide mid-air. Pharah can be hurt by own rockets. Rockets have a small amount of knockback, allowing for light rocket jumping."
         },
         {
           "name": "Jump Jet",
@@ -773,7 +821,8 @@
           "cooldown-reload": "10s",
           "heals": "",
           "shield-strength": "",
-          "range": ""
+          "range": "",
+          "notes": ""
         },
         {
           "name": "Hover Jets",
@@ -787,7 +836,8 @@
           "cooldown-reload": "2s",
           "heals": "",
           "shield-strength": "",
-          "range": ""
+          "range": "",
+          "notes": ""
         },
         {
           "name": "Concussive Blast",
@@ -801,7 +851,8 @@
           "cooldown-reload": "12s",
           "heals": "",
           "shield-strength": "",
-          "range": "8 meter explosion radius"
+          "range": "8 meter explosion radius",
+          "notes": "Concussive Blast knockback can be used by Pharah to cover short distances."
         },
         {
           "name": "Barrage (Ult)",
@@ -815,10 +866,919 @@
           "cooldown-reload": "",
           "heals": "",
           "shield-strength": "",
-          "range": ""
+          "range": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "hero": "Reaper",
+      "role": "Offense",
+      "difficulty": "1/3",
+      "hp": "250 Life",
+      "abilities":
+      [
+        {
+          "name": "Hellfire Shotguns",
+          "key": "LM",
+          "damage": "2-7 * 20",
+          "headshot": "yes",
+          "ammo": "8",
+          "fire-rate": "2 rps",
+          "cast-time": "",
+          "duration": "",
+          "cooldown-reload": "1.5",
+          "heals": "",
+          "shield-strength": "",
+          "range": "",
+          "notes": ""
+        },
+        {
+          "name": "Wraith Form",
+          "key": "Shift",
+          "damage": "",
+          "headshot": "",
+          "ammo": "",
+          "fire-rate": "",
+          "cast-time": "",
+          "duration": "3s",
+          "cooldown-reload": "8s",
+          "heals": "",
+          "shield-strength": "",
+          "range": "20-22 meters",
+          "notes": "Immune to all damage and debuffs in Wraith Form. Activating Wraith Form dispels debuffs. Reaper can still contest an objective while in Wraith Form."
+        },
+        {
+          "name": "Shadow Step",
+          "key": "E",
+          "damage": "",
+          "headshot": "",
+          "ammo": "",
+          "fire-rate": "",
+          "cast-time": "2s",
+          "duration": "",
+          "cooldown-reload": "10s",
+          "heals": "",
+          "shield-strength": "",
+          "range": "35 meters",
+          "notes": ""
+        },
+        {
+          "name": "Death Blossom (Ult)",
+          "key": "Q",
+          "damage": "600",
+          "headshot": "no",
+          "ammo": "",
+          "fire-rate": "",
+          "cast-time": "",
+          "duration": "3s",
+          "cooldown-reload": "",
+          "heals": "",
+          "shield-strength": "",
+          "range": "8 meter radius",
+          "notes": ""
+        },
+        {
+          "name": "The Reaping",
+          "key": "Passive",
+          "damage": "",
+          "headshot": "",
+          "ammo": "",
+          "fire-rate": "",
+          "cast-time": "",
+          "duration": "",
+          "cooldown-reload": "",
+          "heals": "50 HP per orb",
+          "shield-strength": "",
+          "range": "5 meter pickup radius",
+          "notes": "Reaper will not collect Soul Globes at full health."
+        }       
+      ]
+    },
+    {
+      "hero": "Reinhardt",
+      "role": "Tank",
+      "difficulty": "1/3",
+      "hp": "300 Life, 200 Armor",
+      "abilities":
+      [
+        {
+          "name": "Rocket Hammer (Melee only)",
+          "key": "LM",
+          "damage": "75",
+          "headshot": "no",
+          "ammo": "",
+          "fire-rate": "1 swing/s",
+          "cast-time": "",
+          "duration": "",
+          "cooldown-reload": "",
+          "heals": "",
+          "shield-strength": "",
+          "range": "5 meters",
+          "notes": ""
+        },
+        {
+          "name": "Barrier Field",
+          "key": "RM",
+          "damage": "",
+          "headshot": "",
+          "ammo": "",
+          "fire-rate": "",
+          "cast-time": "",
+          "duration": "",
+          "cooldown-reload": "",
+          "heals": "",
+          "shield-strength": "2000",
+          "range": "",
+          "notes": "If Reinhardt's Barrier Field goes through all 2000 HP, it imposes a 5 second cooldown. Barrier Field prohibits the application of crowd control, debuffs, and aura heals."
+        },
+        {
+          "name": "Charge",
+          "key": "Shift",
+          "damage": "Initial hit 50, 300 when pinned",
+          "headshot": "",
+          "ammo": "",
+          "fire-rate": "",
+          "cast-time": "",
+          "duration": "3s if does not hit",
+          "cooldown-reload": "10s",
+          "heals": "",
+          "shield-strength": "",
+          "range": "50 meters",
+          "notes": ""
+        },
+        {
+          "name": "Fire Strike",
+          "key": "E",
+          "damage": "100",
+          "headshot": "",
+          "ammo": "",
+          "fire-rate": "",
+          "cast-time": "0.25s",
+          "duration": "",
+          "cooldown-reload": "6s",
+          "heals": "",
+          "shield-strength": "",
+          "range": "",
+          "notes": "Fire Strike pierces enemies and enemy barriers."
+        },
+        {
+          "name": "Earth Shatter (Ult)",
+          "key": "Q",
+          "damage": "50",
+          "headshot": "",
+          "ammo": "",
+          "fire-rate": "",
+          "cast-time": "0.5s",
+          "duration": "",
+          "cooldown-reload": "",
+          "heals": "",
+          "shield-strength": "",
+          "range": "",
+          "notes": "Earth Shatter can be held to delay activation (Hammer.....Down)."
+        }
+      ]
+    },
+    {
+      "hero": "Roadhog",
+      "role": "Tank",
+      "difficulty": "1/3",
+      "hp": "600 Life",
+      "abilities":
+      [
+        {
+          "name": "Scrap Gun",
+          "key": "LM",
+          "damage": "4-9 * 25",
+          "headshot": "yes",
+          "ammo": "4",
+          "fire-rate": "1 rps",
+          "cast-time": "",
+          "duration": "",
+          "cooldown-reload": "1.5s",
+          "heals": "",
+          "shield-strength": "",
+          "range": "",
+          "notes": ""
+        },
+        {
+          "name": "Scrap Gun (Alt-fire)",
+          "key": "RM",
+          "damage": "50",
+          "headshot": "yes",
+          "ammo": "4",
+          "fire-rate": "",
+          "cast-time": "",
+          "duration": "",
+          "cooldown-reload": "1.5s",
+          "heals": "",
+          "shield-strength": "",
+          "range": "Explodes to Scrap Gun projectile after 5 meters",
+          "notes": ""
+        },
+        {
+          "name": "Chain Hook",
+          "key": "Shift",
+          "damage": "30",
+          "headshot": "no",
+          "ammo": "",
+          "fire-rate": "",
+          "cast-time": "",
+          "duration": "",
+          "cooldown-reload": "6s",
+          "heals": "",
+          "shield-strength": "",
+          "range": "21-22 meters",
+          "notes": "Does not pierce Barriers."
+        },
+        {
+          "name": "Take a Breather",
+          "key": "E",
+          "damage": "",
+          "headshot": "",
+          "ammo": "",
+          "fire-rate": "",
+          "cast-time": "",
+          "duration": "1s",
+          "cooldown-reload": "8s",
+          "heals": "300 HP",
+          "shield-strength": "",
+          "range": "",
+          "notes": "Roadhog can not move during Take a Breather."
+        },
+        {
+          "name": "Whole Hog",
+          "key": "Q",
+          "damage": "4200",
+          "headshot": "yes",
+          "ammo": "",
+          "fire-rate": "",
+          "cast-time": "",
+          "duration": "6s",
+          "cooldown-reload": "",
+          "heals": "",
+          "shield-strength": "",
+          "range": "",
+          "notes": "Whole Hog does knockback to enemy Heroes."
+        }
+      ]
+    },
+    {
+      "hero": "Soldier: 76",
+      "role": "Offense",
+      "difficulty": "1/3",
+      "hp": "200 Life",
+      "abilities":
+      [
+        {
+          "name": "Heavy Pulse Rifle",
+          "key": "LM",
+          "damage": "5-17",
+          "headshot": "yes",
+          "ammo": "25",
+          "fire-rate": "10 rps",
+          "cast-time": "",
+          "duration": "",
+          "cooldown-reload": "1s",
+          "heals": "",
+          "shield-strength": "",
+          "range": "",
+          "notes": ""
+        },
+        {
+          "name": "Helix Rockets",
+          "key": "RM",
+          "damage": "120",
+          "headshot": "no",
+          "ammo": "",
+          "fire-rate": "",
+          "cast-time": "",
+          "duration": "",
+          "cooldown-reload": "8s",
+          "heals": "",
+          "shield-strength": "",
+          "range": "2 meter explosion radius",
+          "notes": "Helix Rockets have no ammo cost. Cannot use Helix Rockets while Sprinting. Attempting to activate it will stop Sprint."
+        },
+        {
+          "name": "Sprint",
+          "key": "Shift",
+          "damage": "",
+          "headshot": "",
+          "ammo": "",
+          "fire-rate": "",
+          "cast-time": "",
+          "duration": "",
+          "cooldown-reload": "",
+          "heals": "",
+          "shield-strength": "",
+          "range": "",
+          "notes": ""
+        },
+        {
+          "name": "Biotic Field",
+          "key": "E",
+          "damage": "",
+          "headshot": "",
+          "ammo": "",
+          "fire-rate": "",
+          "cast-time": "",
+          "duration": "5s",
+          "cooldown-reload": "15s",
+          "heals": "40 hps",
+          "shield-strength": "",
+          "range": "5 meter radius",
+          "notes": "Using Biotic Field while Sprinting stops Sprint."
+        },
+        {
+          "name": "Tactical Visor",
+          "key": "Q",
+          "damage": "",
+          "headshot": "no",
+          "ammo": "",
+          "fire-rate": "",
+          "cast-time": "",
+          "duration": "6s",
+          "cooldown-reload": "",
+          "heals": "",
+          "shield-strength": "",
+          "range": "",
+          "notes": "Activating Tactical Visor refills ammo. Reload time is reduced by 50% during Tactical Visor."
+        }
+      ]
+    },
+    {
+      "hero": "Symmetra",
+      "role": "Support",
+      "difficulty": "2/3",
+      "hp": "100 Life, 100 Shield",
+      "abilities":
+      [
+        {
+          "name": "Photon Projector",
+          "key": "LM",
+          "damage": "Lvl 1: 30 dps, Lvl 2: 60 dps, Lvl 3: 120 dps",
+          "headshot": "no",
+          "ammo": "100",
+          "fire-rate": "7-8 rps",
+          "cast-time": "",
+          "duration": "",
+          "cooldown-reload": "1 sec",
+          "heals": "",
+          "shield-strength": "",
+          "range": "5 meters",
+          "notes": "Damage level increases 1 level per second as beam is attached."
+        },
+        {
+          "name": "Photon Projector (Alt-fire)",
+          "key": "RM",
+          "damage": "25-125",
+          "headshot": "no",
+          "ammo": "20 max per shot",
+          "fire-rate": "",
+          "cast-time": "max 3 s",
+          "duration": "",
+          "cooldown-reload": "",
+          "heals": "",
+          "shield-strength": "",
+          "range": "",
+          "notes": "Charged shot pierces enemies and enemy barriers."
+        },
+        {
+          "name": "Sentry Turret",
+          "key": "Shift",
+          "damage": "25 dps",
+          "headshot": "no",
+          "ammo": "3 (6 max)",
+          "fire-rate": "",
+          "cast-time": "1s",
+          "duration": "",
+          "cooldown-reload": "1 per 10s",
+          "heals": "",
+          "shield-strength": "",
+          "range": "10 meters",
+          "notes": "Sentry Turrets have 1 Life."
+        },
+        {
+          "name": "Photon Shield",
+          "key": "E",
+          "damage": "",
+          "headshot": "",
+          "ammo": "",
+          "fire-rate": "",
+          "cast-time": "",
+          "duration": "",
+          "cooldown-reload": "1s",
+          "heals": "",
+          "shield-strength": "25",
+          "range": "20 meters",
+          "notes": "Photon Shield lasts the life of attached player, or until Symmetra switches Heroes. Photon Shield recharges ~3 seconds after receiving damage (25 shield hp per sec, 3 sec recharge)."
+        },
+        {
+          "name": "Teleporter (Ult)",
+          "key": "Q",
+          "damage": "",
+          "headshot": "",
+          "ammo": "",
+          "fire-rate": "",
+          "cast-time": "2s",
+          "duration": "6 charges",
+          "cooldown-reload": "",
+          "heals": "",
+          "shield-strength": "",
+          "range": "",
+          "notes": "Teleporter has 200 Life."
+        }
+      ]
+    },
+    {
+      "hero": "Torbjorn",
+      "role": "Defense",
+      "difficulty": "2/3",
+      "hp": "200",
+      "abilities":
+      [
+        {
+          "name": "Rivet Gun",
+          "key": "LM",
+          "damage": "70",
+          "headshot": "yes",
+          "ammo": "18",
+          "fire-rate": "1.7 rps",
+          "cast-time": "",
+          "duration": "",
+          "cooldown-reload": "2s",
+          "heals": "",
+          "shield-strength": "",
+          "range": "",
+          "notes": ""
+        },
+        {
+          "name": "Rivet Gun (Alt-fire)",
+          "key": "RM",
+          "damage": "50-150",
+          "headshot": "yes",
+          "ammo": "3 per shot",
+          "fire-rate": "1.3 rps",
+          "cast-time": "",
+          "duration": "",
+          "cooldown-reload": "",
+          "heals": "",
+          "shield-strength": "",
+          "range": "",
+          "notes": ""
+        },
+        {
+          "name": "Forge Hammer",
+          "key": "2/LM",
+          "damage": "75",
+          "headshot": "",
+          "ammo": "",
+          "fire-rate": "1 swing/s",
+          "cast-time": "",
+          "duration": "",
+          "cooldown-reload": "",
+          "heals": "",
+          "shield-strength": "",
+          "range": "",
+          "notes": ""
+        },
+        {
+          "name": "Armor Pack",
+          "key": "E",
+          "damage": "",
+          "headshot": "",
+          "ammo": "",
+          "fire-rate": "",
+          "cast-time": "50 scrap cost",
+          "duration": "",
+          "cooldown-reload": "",
+          "heals": "",
+          "shield-strength": "75 Armor",
+          "range": "",
+          "notes": "Armor HP given by Armor Pack does not stack. Max Added Armor is 75.  Players with 75 added Armor can't pickup more. Only 10 Armor Packs can be down at a time."
+        },
+        {
+          "name": "Molten Core (Ult)",
+          "key": "Q",
+          "damage": "",
+          "headshot": "",
+          "ammo": "",
+          "fire-rate": "",
+          "cast-time": "",
+          "duration": "12s",
+          "cooldown-reload": "",
+          "heals": "",
+          "shield-strength": "",
+          "range": "",
+          "notes": "Torbjorn gets 200 Life, 300 Armor during the Molten Core. Molten Core automatically upgrades turrets from Level 2 to Level 3. Molten Core increases Rivet Gun to 2.5 rps, Rivet Gun (Alt-Fire) to 1.75 rps, and Forge Hammer to 2 swing/sec."
+        },
+        {
+          "name": "Torbjorn's Turret",
+          "key": "Shift",
+          "damage": "14 per shot, 14 dmg per rocket",
+          "headshot": "no",
+          "ammo": "infinite",
+          "fire-rate": "Level 1: 2 rps, Level 2: 4 rps, Level 3: 5 rps + 4 rocket dps",
+          "cast-time": "",
+          "duration": "",
+          "cooldown-reload": "8s",
+          "heals": "",
+          "shield-strength": "",
+          "range": "40 meters",
+          "notes": "Level 1: 150 Life, Level 2: 300 Life, Level 3: 800 Life. Repairing your turret has no cost (50 HP per swing). Repairing your turret takes precedence over upgrading."
+        }
+      ]
+    },
+    {
+      "hero": "Tracer",
+      "role": "Offense",
+      "difficulty": "2/3",
+      "hp": "150 Life",
+      "abilities":
+      [
+        {
+          "name": "Pulse Pistols",
+          "key": "LM",
+          "damage": "1.5-6",
+          "headshot": "yes",
+          "ammo": "40",
+          "fire-rate": "40 rps",
+          "cast-time": "",
+          "duration": "",
+          "cooldown-reload": "1s",
+          "heals": "",
+          "shield-strength": "",
+          "range": "",
+          "notes": ""
+        },
+        {
+          "name": "Blink",
+          "key": "Shift",
+          "damage": "",
+          "headshot": "",
+          "ammo": "3 charges",
+          "fire-rate": "",
+          "cast-time": "",
+          "duration": "",
+          "cooldown-reload": "3s per charge",
+          "heals": "",
+          "shield-strength": "",
+          "range": "~7 meters",
+          "notes": "Tracer can blink in any horizontal direction."
+        },
+        {
+          "name": "Recall",
+          "key": "E",
+          "damage": "",
+          "headshot": "",
+          "ammo": "",
+          "fire-rate": "",
+          "cast-time": "",
+          "duration": "1.25s",
+          "cooldown-reload": "12s",
+          "heals": "",
+          "shield-strength": "",
+          "range": "",
+          "notes": "Recall will remove Orbs of Discord. Recall will not regain lost armor or shield HP."
+        },
+        {
+          "name": "Pulse Bomb",
+          "key": "Q",
+          "damage": "400",
+          "headshot": "yes, initial stick can crit, explosion cannot",
+          "ammo": "",
+          "fire-rate": "",
+          "cast-time": "1s",
+          "duration": "",
+          "cooldown-reload": "",
+          "heals": "",
+          "shield-strength": "",
+          "range": "3 meter explosion radius",
+          "notes": "Tracer can be damaged by her own Pulse Bomb."
+        }
+      ]
+    },
+    {
+      "hero": "Widowmaker",
+      "role": "Offense",
+      "difficulty": "2/3",
+      "hp": "200 Life",
+      "abilities":
+      [
+        {
+          "name": "Widow's Kiss (Sniper)",
+          "key": "LM",
+          "damage": "15-150",
+          "headshot": "yes",
+          "ammo": "30, cosumes 3 per shot",
+          "fire-rate": "1 rps",
+          "cast-time": "",
+          "duration": "",
+          "cooldown-reload": "1.5s",
+          "heals": "",
+          "shield-strength": "",
+          "range": "",
+          "notes": "Can be activated by holding right click. Widow's Kiss: Sniper charges to 100% in 1 sec."
+        },
+        {
+          "name": "Widow's Kiss (Assault)",
+          "key": "LM",
+          "damage": "13",
+          "headshot": "yes",
+          "ammo": "30",
+          "fire-rate": "10 rps",
+          "cast-time": "",
+          "duration": "",
+          "cooldown-reload": "1.5s",
+          "heals": "",
+          "shield-strength": "",
+          "range": "",
+          "notes": ""
+        },
+        {
+          "name": "Grappling Hook",
+          "key": "Shift",
+          "damage": "",
+          "headshot": "",
+          "ammo": "",
+          "fire-rate": "",
+          "cast-time": "",
+          "duration": "",
+          "cooldown-reload": "12s",
+          "heals": "",
+          "shield-strength": "",
+          "range": "20 meter distance",
+          "notes": "Grappling Hook will not go on cooldown if it doesn't connect."
+        },
+        {
+          "name": "Venom Mine",
+          "key": "E",
+          "damage": "75 over 5s",
+          "headshot": "no",
+          "ammo": "",
+          "fire-rate": "",
+          "cast-time": "",
+          "duration": "5s",
+          "cooldown-reload": "15s",
+          "heals": "",
+          "shield-strength": "",
+          "range": "3 meter radius on poison gas explosion",
+          "notes": "Arrow above Venom Mine designates a mine is already planted."
+        },
+        {
+          "name": "Infra-Sight",
+          "key": "Q",
+          "damage": "",
+          "headshot": "",
+          "ammo": "",
+          "fire-rate": "",
+          "cast-time": "",
+          "duration": "15.5s",
+          "cooldown-reload": "",
+          "heals": "",
+          "shield-strength": "",
+          "range": "",
+          "notes": "Widowmaker and all of her team can see enemies through walls during the Infra-Sight."
+        }
+      ]
+    },
+    {
+      "hero": "Winston",
+      "role": "Tank",
+      "difficulty": "2/3",
+      "hp": "400 Life, 100 Armor",
+      "abilities":
+      [
+        {
+          "name": "Tesla Cannon",
+          "key": "LM",
+          "damage": "~54 dps",
+          "headshot": "no",
+          "ammo": "100",
+          "fire-rate": "20 rps",
+          "cast-time": "",
+          "duration": "",
+          "cooldown-reload": "1.5s",
+          "heals": "",
+          "shield-strength": "",
+          "range": "8 meters",
+          "notes": "Tesla Cannon automatically targets all enemies in field of view."
+        },
+        {
+          "name": "Jump Pack",
+          "key": "Shift",
+          "damage": "50",
+          "headshot": "no",
+          "ammo": "",
+          "fire-rate": "",
+          "cast-time": "",
+          "duration": "",
+          "cooldown-reload": "6s",
+          "heals": "",
+          "shield-strength": "",
+          "range": "5 meter splash radius",
+          "notes": ""
+        },
+        {
+          "name": "Barrier Projector",
+          "key": "E",
+          "damage": "",
+          "headshot": "",
+          "ammo": "",
+          "fire-rate": "",
+          "cast-time": "",
+          "duration": "5s",
+          "cooldown-reload": "13s",
+          "heals": "",
+          "shield-strength": "600",
+          "range": "5 meter radius",
+          "notes": "Barrier Projector can not be used during Primal Rage. Barrier Projector blocks all debuffs, crowd controls, and aura heals."
+        },
+        {
+          "name": "Primal Rage",
+          "key": "Q",
+          "damage": "melee attacks deal 40",
+          "headshot": "no",
+          "ammo": "",
+          "fire-rate": "",
+          "cast-time": "",
+          "duration": "10s",
+          "cooldown-reload": "",
+          "heals": "",
+          "shield-strength": "",
+          "range": "4 meter swings",
+          "notes": "Winston has 900 Life, 100 Armor during Primal Rage. dPrimal Rage increases speed and health. Primal Rage fully heals Winston at the time of use."
+        }
+      ]
+    },
+    {
+      "hero": "Zarya",
+      "role": "Tank",
+      "difficulty": "3/3",
+      "hp": "200 Life, 200 Shield",
+      "abilities":
+      [
+        {
+          "name": "Particle Beam",
+          "key": "LM",
+          "damage": "4-7.5",
+          "headshot": "no",
+          "ammo": "100",
+          "fire-rate": "20 rps",
+          "cast-time": "",
+          "duration": "",
+          "cooldown-reload": "1.5s",
+          "heals": "",
+          "shield-strength": "",
+          "range": "15 meter",
+          "notes": ""
+        },
+        {
+          "name": "Explosive Charge",
+          "key": "RM",
+          "damage": "46-95",
+          "headshot": "no",
+          "ammo": "",
+          "fire-rate": "1 rps",
+          "cast-time": "",
+          "duration": "",
+          "cooldown-reload": "1.5s",
+          "heals": "",
+          "shield-strength": "",
+          "range": "2 meter explosion radius",
+          "notes": ""
+        },
+        {
+          "name": "Particle Barrier",
+          "key": "Shift",
+          "damage": "",
+          "headshot": "",
+          "ammo": "",
+          "fire-rate": "",
+          "cast-time": "",
+          "duration": "2s",
+          "cooldown-reload": "10s",
+          "heals": "",
+          "shield-strength": "200",
+          "range": "",
+          "notes": "Barriers do NOT charge Ultimate meter. Damage amp from Barriers degrades at 2 per sec. Damage amp from Barriers increases at 3 per 5 shield damage taken."
+        },
+        {
+          "name": "Projected Barrier",
+          "key": "E",
+          "damage": "",
+          "headshot": "",
+          "ammo": "",
+          "fire-rate": "",
+          "cast-time": "",
+          "duration": "2s",
+          "cooldown-reload": "8s",
+          "heals": "",
+          "shield-strength": "200",
+          "range": "30 meters",
+          "notes": "Barriers do NOT charge Ultimate meter. Damage amp from Barriers degrades at 2 per sec. Damage amp from Barriers increases at 3 per 5 shield damage taken."
+        },
+        {
+          "name": "Graviton Surge",
+          "key": "Q",
+          "damage": "22",
+          "headshot": "no",
+          "ammo": "",
+          "fire-rate": "",
+          "cast-time": "",
+          "duration": "4s",
+          "cooldown-reload": "",
+          "heals": "",
+          "shield-strength": "",
+          "range": "8 meter radius",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "hero": "Zenjetta",
+      "role": "Support",
+      "difficulty": "3/3",
+      "hp": "50 Life, 100 Shield",
+      "abilities":
+      [
+        {
+          "name": "Orb of Destruction",
+          "key": "LM",
+          "damage": "45",
+          "headshot": "yes",
+          "ammo": "20",
+          "fire-rate": "3 rps",
+          "cast-time": "",
+          "duration": "",
+          "cooldown-reload": "2s",
+          "heals": "",
+          "shield-strength": "",
+          "range": "",
+          "notes": ""
+        },
+        {
+          "name": "Orb of Destuction (Alt-Fire)",
+          "key": "RM",
+          "damage": "35 * 5",
+          "headshot": "yes",
+          "ammo": "consumes up to 5 per shot",
+          "fire-rate": "",
+          "cast-time": "2-2.5s",
+          "duration": "",
+          "cooldown-reload": "",
+          "heals": "",
+          "shield-strength": "",
+          "range": "",
+          "notes": ""
+        },
+        {
+          "name": "Orb of Harmony",
+          "key": "Shift",
+          "damage": "",
+          "headshot": "",
+          "ammo": "1 active at a time",
+          "fire-rate": "",
+          "cast-time": "",
+          "duration": "Returns to Zenyatta if target is out of sight for more than 3 seconds.",
+          "cooldown-reload": "",
+          "heals": "30 hps",
+          "shield-strength": "",
+          "range": "40 meters",
+          "notes": "Orb of Harmony will not charge the Ultimate meter if not healing. New Orbs of Discord and Harmony originate from Zenyatta."
+        },
+        {
+          "name": "Orb of Discord",
+          "key": "E",
+          "damage": "",
+          "headshot": "",
+          "ammo": "1 active at a time",
+          "fire-rate": "",
+          "cast-time": "",
+          "duration": "Returns to Zenyatta if target is out of sight for more than 3 seconds.",
+          "cooldown-reload": "",
+          "heals": "",
+          "shield-strength": "",
+          "range": "40 meters",
+          "notes": "Orb of Discord increases damage taken by 50%. Orb of Discord does not pierce barriers."
+        },
+        {
+          "name": "Trancendence (Ult)",
+          "key": "Q",
+          "damage": "",
+          "headshot": "",
+          "ammo": "",
+          "fire-rate": "",
+          "cast-time": "",
+          "duration": "6s",
+          "cooldown-reload": "",
+          "heals": "180 hps",
+          "shield-strength": "",
+          "range": "10 meter radius",
+          "notes": "Immune to damage during Trancendence but can be crowd controlled."
         }
       ]
     }
   ]
 }
-  

@@ -7,6 +7,7 @@ function aboutCmd(client, ev) {
 export default {
   about: {
     func: aboutCmd,
+    usage: "",
     desc: "Info about Watcherino bot"
   }
 };

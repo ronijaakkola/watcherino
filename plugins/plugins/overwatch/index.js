@@ -143,34 +143,44 @@ function chargeCmd(client, ev) {
 export default {
   hero: {
     func: heroCmd,
+    usage: "<hero>",
     desc: "Show information about the given Overwatch hero"
   },
   abilities: {
     func: abilitiesCmd,
+    usage: "<hero>",
     desc: "Show information about the abilities of the given Overwatch hero"
   },
   skills: {
     func: abilitiesCmd,
+    usage: "<hero>",
     desc: "Show information about the abilities of the given Overwatch hero"
   },
   ability: {
     func: abilityCmd,
+    usage: "<hero> <ability slot>",
     desc: "Show information about the ability of the given Overwatch hero"
   },
   skill: {
     func: abilityCmd,
+    usage: "<hero> <ability slot>",
     desc: "Show information about the ability of the given Overwatch hero"
   },
   melee: {
     func: meleeCmd,
+    usage: "",
     desc: "Give information about heroes' melee damage"
   },
+  /*
   speed: {
     func: speedCmd,
+    usage: "",
     desc: "Give information about heroes' movement speed"
   },
   ultimate: {
     func: chargeCmd,
+    usage: "",
     desc: "Give information about heroes' ultimate charge rates"
   }
+  */
 };

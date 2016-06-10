@@ -1445,7 +1445,7 @@
         {
           "name": "Pulse Bomb",
           "key": "Q",
-          "damage": "400",
+          "damage": "400, initial hit 5",
           "headshot": "yes, initial stick can crit, explosion cannot",
           "ammo": "",
           "firerate": "",

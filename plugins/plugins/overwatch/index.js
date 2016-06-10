@@ -110,8 +110,7 @@ function abilityCmd(client, ev, params) {
     if (hero) {
       let ability = findAbility(params[1], hero.abilities);
       if (ability) {
-        //ev.message.channel.sendMessage(user.nickMention + ", here is the " + params[1] + "ability of " + hero.hero ".\n" + createAbilityMessage(ability));
-        ev.message.channel.sendMessage(user.nickMention + ", here is the ability " + params[1]  + "of " + hero.hero + "\n" + createAbilityMessage(ability));
+        ev.message.channel.sendMessage(user.nickMention + ", here is the ability " + params[1]  + " of " + hero.hero + "\n" + createAbilityMessage(ability));
       }
       else {
         ev.message.channel.sendMessage("Sorry " + user.nickMention + ", I could not find an ability slot " + params[1] + " from " + hero.hero + ".");

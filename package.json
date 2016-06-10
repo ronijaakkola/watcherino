@@ -9,8 +9,8 @@
     "babel-register": "^6.4.3",
     "chalk": "^1.1.1",
     "discordie": "^0.6.5",
-    "glob": "^6.0.4",
-    "ramda": "^0.19.1"
+    "glob": "^7.0.3",
+    "ramda": "^0.21.0"
   },
   "devDependencies": {},
   "scripts": {

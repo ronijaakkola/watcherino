@@ -50,6 +50,18 @@ function onMessage(event) {
   }
 }
 
+function buildHelpText() {
+  let c = commands.default;
+  for (var key in c) {
+    helpText += "**!" + key + " " + c[key].usage + "**\n" + "  " + c[key].desc + "\n";
+  }
+}
+
+function printHelpMsg(ev) {
+  let user = ev.message.author;
+  ev.message.channel.sendMessage(user.nickMention + ", here are all the available commands\n" + helpText);
+}
+
 function connect() {
   if (config.token == "" || config.bot_id == "") {
     console.error('Watcherino needs token and bot_id to be setup in config.js!');
@@ -58,20 +70,6 @@ function connect() {
   buildHelpText();
   
   client.connect({token: config.token});
-}
-
-function buildHelpText() {
-  console.log(commands);
-  let c = commands.default;
-  for (var key in c) {
-    helpText += "**!" + key + " " + c[key].usage + "**\n" + "  " + c[key].desc + "\n";
-  }
-  console.log(helpText);
-}
-
-function printHelpMsg(ev) {
-  let user = ev.message.author;
-  ev.message.channel.sendMessage(user.nickMention + ", here are all the available commands\n" + helpText);
 }
 
 function forceFetchUsers() {

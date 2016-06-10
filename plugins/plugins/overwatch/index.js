@@ -19,6 +19,23 @@ function heroCmd(client, ev, params) {
   }
 }
 
+function healthCmd(client, ev, params) {
+  let user = ev.message.author;
+  if (params.length === 0) {
+    ev.message.channel.sendMessage(user.nickMention + ", please specify a hero. E.g. !hp McCree");
+  }
+  else {
+    let hero = findHero(params[0]);
+    if (hero) {
+      ev.message.channel.sendMessage(user.nickMention + ", " + hero.hero + " has **" + hero.hp + "**.");
+    }
+    else {
+      // TODO: Make the hero search better or suggest heroes
+      ev.message.channel.sendMessage("Sorry " + user.nickMention + ", I could not find a hero named " + params[0] + ".");
+    }
+  }
+}
+
 // TODO: Extract this to helpers file
 function findHero(hero) {
   for (var i = 0; i < heroes.length; ++i) {
@@ -165,6 +182,11 @@ export default {
     func: abilityCmd,
     usage: "<hero> <ability slot>",
     desc: "Show information about the ability of the given Overwatch hero"
+  },
+  hp: {
+    func: healthCmd,
+    usage: "<hero>",
+    desc: "Show how much health the given hero has"
   },
   melee: {
     func: meleeCmd,

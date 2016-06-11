@@ -12,18 +12,18 @@ const client = new Discordie()
 let inited = false;
 let helpText = "";
 
-function onMessage(event) {
+function onMessage(ev) {
   // Ignore empty messages and messages from this bot
-  if (!event.message) return;
-  if (client.User.id === event.message.author.id) return;
+  if (!ev.message) return;
+  if (client.User.id === ev.message.author.id) return;
   
-  let msg = event.message;
+  let msg = ev.message;
   if (msg.content[0] === config.prefix) {
     let command = msg.content.toLowerCase().split(' ')[0].substring(1);
 
     // Print the help message
     if (command == "help") {
-      printHelpMsg(event);
+      printHelpMsg(ev);
       return;
     }
 
@@ -32,7 +32,7 @@ function onMessage(event) {
 
     // If command was found from the plugins, call its function
     if (cmd) {
-      cmd.func(client, event, params);
+      cmd.func(client, ev, params);
     }
     else {
       let user = msg.author;
@@ -67,6 +67,7 @@ function connect() {
     console.error('Watcherino needs token and bot_id to be setup in config.js!');
     process.exit(1);
   }
+  
   buildHelpText();
   
   client.connect({token: config.token});
@@ -85,6 +86,7 @@ client.Dispatcher.on('GATEWAY_READY', () => {
   if (!inited) {
     inited = true;
 
+    // Set up handlers
     client.Dispatcher.on('MESSAGE_CREATE', onMessage);
     client.Dispatcher.on('MESSAGE_UPDATE', onMessage);
   }

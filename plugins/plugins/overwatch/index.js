@@ -2,6 +2,7 @@ import res from './resources.json';
 
 const heroes = res.heroes
 
+// Command: !hero <hero> 
 function heroCmd(client, ev, params) {
   let user = ev.message.author;
   if (params.length === 0) {
@@ -19,6 +20,7 @@ function heroCmd(client, ev, params) {
   }
 }
 
+// Command: !hp <hero> 
 function healthCmd(client, ev, params) {
   let user = ev.message.author;
   if (params.length === 0) {
@@ -36,6 +38,72 @@ function healthCmd(client, ev, params) {
   }
 }
 
+// Command: !abilities <hero> 
+function abilitiesCmd(client, ev, params) {
+  let user = ev.message.author;
+  if (params.length === 0) {
+    ev.message.channel.sendMessage(user.nickMention + ", please specify a hero. E.g. !abilities McCree");
+  }
+  else {
+    let hero = findHero(params[0]);
+    if (hero) {
+      ev.message.channel.sendMessage(user.nickMention + ", here are the abilities of " + hero.hero + "\n" + createAbilitiesMessage(hero.abilities));
+    }
+    else {
+      // TODO: Make the hero search better or suggest heroes
+      ev.message.channel.sendMessage("Sorry " + user.nickMention + ", I could not find a hero named " + params[0] + ".");
+    }
+  }
+}
+
+// Command: !ability <hero>
+function abilityCmd(client, ev, params) {
+  let user = ev.message.author;
+  if (params.length != 2) {
+    ev.message.channel.sendMessage(user.nickMention + ", please specify a hero and ability slot. E.g. !ability McCree <LM|RM|E|Shift|Q>");
+  }
+  else {
+    let hero = findHero(params[0]);
+    if (hero) {
+      let ability = findAbility(params[1], hero.abilities);
+      if (ability) {
+        ev.message.channel.sendMessage(user.nickMention + ", here is the ability " + params[1]  + " of " + hero.hero + "\n" + createAbilityMessage(ability));
+      }
+      else {
+        ev.message.channel.sendMessage("Sorry " + user.nickMention + ", I could not find an ability slot " + params[1] + " from " + hero.hero + ".");
+      }
+    }
+    else {
+      // TODO: Make the hero search better or suggest heroes
+      ev.message.channel.sendMessage("Sorry " + user.nickMention + ", I could not find a hero named " + params[0] + ".");
+    }
+  }
+}
+
+// Command: !melee
+function meleeCmd(client, ev) {
+  let user = ev.message.author;
+  ev.message.channel.sendMessage(user.nickMention + ", all heroes do 30 melee damage except Reinhardt and Torbjorn who do 75.");
+}
+
+// Command: !speed
+function speedCmd(client, ev) {
+  let user = ev.message.author;
+  ev.message.channel.sendMessage(user.nickMention + ", here is a list of all heroes' movement speeds");
+  // TODO: Add the list
+}
+
+// Command: !ultimate
+function chargeCmd(client, ev) {
+  let user = ev.message.author;
+  ev.message.channel.sendMessage(user.nickMention + ", here is a list of all heroes' ultimate charge speeds");
+  // TODO: Add the list
+}
+
+
+// HELPERS
+// -------
+
 // TODO: Extract this to helpers file
 function findHero(hero) {
   for (var i = 0; i < heroes.length; ++i) {
@@ -46,14 +114,22 @@ function findHero(hero) {
 }
 
 // TODO: Extract this to helpers file
+function findAbility(key, abs) {
+  for (var i = 0; i < abs.length; ++i) {
+    if (abs[i].key.toLowerCase() == key.toLowerCase())
+      return abs[i];
+  }
+  return null;
+}
+
+
+// TODO: Extract this to helpers file
 function createInfoMessage(hero) {
   let info = "**" + hero.hero + "**\n"
       + "**Role:** " + hero.role + "\n"
       + "**Health:** " + hero.hp + "\n"
       + "**Abilities: **";
 
-  console.log(hero.abilities.length);
-  
   let abilities = [];
   let i = 0;
   while (i < hero.abilities.length) {
@@ -91,72 +167,8 @@ function createAbilitiesMessage(abs) {
   return abilities;
 }
 
-function abilitiesCmd(client, ev, params) {
-  let user = ev.message.author;
-  if (params.length === 0) {
-    ev.message.channel.sendMessage(user.nickMention + ", please specify a hero. E.g. !abilities McCree");
-  }
-  else {
-    let hero = findHero(params[0]);
-    if (hero) {
-      ev.message.channel.sendMessage(user.nickMention + ", here are the abilities of " + hero.hero + "\n" + createAbilitiesMessage(hero.abilities));
-    }
-    else {
-      // TODO: Make the hero search better or suggest heroes
-      ev.message.channel.sendMessage("Sorry " + user.nickMention + ", I could not find a hero named " + params[0] + ".");
-    }
-  }
-}
-
-// TODO: Extract this to helpers file
-function findAbility(key, abs) {
-  for (var i = 0; i < abs.length; ++i) {
-    if (abs[i].key.toLowerCase() == key.toLowerCase())
-      return abs[i];
-  }
-  return null;
-}
-
-function abilityCmd(client, ev, params) {
-  let user = ev.message.author;
-  if (params.length != 2) {
-    ev.message.channel.sendMessage(user.nickMention + ", please specify a hero and ability slot. E.g. !ability McCree <LM|RM|E|Shift|Q>");
-  }
-  else {
-    let hero = findHero(params[0]);
-    if (hero) {
-      let ability = findAbility(params[1], hero.abilities);
-      if (ability) {
-        ev.message.channel.sendMessage(user.nickMention + ", here is the ability " + params[1]  + " of " + hero.hero + "\n" + createAbilityMessage(ability));
-      }
-      else {
-        ev.message.channel.sendMessage("Sorry " + user.nickMention + ", I could not find an ability slot " + params[1] + " from " + hero.hero + ".");
-      }
-    }
-    else {
-      // TODO: Make the hero search better or suggest heroes
-      ev.message.channel.sendMessage("Sorry " + user.nickMention + ", I could not find a hero named " + params[0] + ".");
-    }
-  }
-}
-
-function meleeCmd(client, ev) {
-  let user = ev.message.author;
-  ev.message.channel.sendMessage(user.nickMention + ", all heroes do 30 melee damage except Reinhardt and Torbjorn who do 75.");
-}
-
-function speedCmd(client, ev) {
-  let user = ev.message.author;
-  ev.message.channel.sendMessage(user.nickMention + ", here is a list of all heroes' movement speeds");
-  // TODO: Add the list
-}
-
-function chargeCmd(client, ev) {
-  let user = ev.message.author;
-  ev.message.channel.sendMessage(user.nickMention + ", here is a list of all heroes' ultimate charge speeds");
-  // TODO: Add the list
-}
-
+// NOTE: Exported commands
+// Always provide the handler function, parameter list and description.
 export default {
   hero: {
     func: heroCmd,

@@ -50,6 +50,23 @@ function onMessage(ev) {
   }
 }
 
+// TODO: Does this get called for each server individually?
+function onPresence(ev) {
+  let user = ev.user;
+  if (user.previousGameName != "Overwatch" && user.gameName == "Overwatch") {
+    let greet = responses.greetings[ Math.floor(Math.random() * (responses.greetings.length)) ];
+    var presence = Math.random() < 0.5 ? "." : ", "
+        + responses.presence[ Math.floor(Math.random() * (responses.presence.length)) ];;
+    //console.log(greet + " " + ev.user.nickMention + " just started playing Overwatch" + presence);
+
+    // TODO: Clean this up.
+    if (ev.guild.textChannels.length > 0) {
+      let c = ev.guild.textChannels[0];
+      c.sendMessage(greet + " " + ev.user.nickMention + " just started playing Overwatch" + presence);
+    }
+  } 
+}
+
 function buildHelpText() {
   let c = commands.default;
   for (var key in c) {
@@ -89,6 +106,7 @@ client.Dispatcher.on('GATEWAY_READY', () => {
     // Set up handlers
     client.Dispatcher.on('MESSAGE_CREATE', onMessage);
     client.Dispatcher.on('MESSAGE_UPDATE', onMessage);
+    client.Dispatcher.on('PRESENCE_UPDATE', onPresence);
   }
 });
 

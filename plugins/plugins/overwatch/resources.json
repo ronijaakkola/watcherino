@@ -560,7 +560,7 @@
         {
           "name": "Fan the Hammer (Alt-Fire)",
           "key": "RM",
-          "damage": "35-70 * 6",
+          "damage": "35-45 * 6",
           "headshot": "no",
           "ammo": "6",
           "firerate": "6 rps",
@@ -1469,7 +1469,7 @@
         {
           "name": "Widow's Kiss (Sniper)",
           "key": "LM",
-          "damage": "15-150",
+          "damage": "12-120",
           "headshot": "yes",
           "ammo": "30, cosumes 3 per shot",
           "firerate": "1 rps",

@@ -2,6 +2,11 @@ import res from './resources.json';
 
 const heroes = res.heroes
 
+// Command: !patch
+function patchCmd(client, ev) {
+  ev.message.channel.sendMessage(res.patchnotes);
+}
+
 // Command: !hero <hero> 
 function heroCmd(client, ev, params) {
   let user = ev.message.author;
@@ -205,6 +210,11 @@ export default {
     usage: "",
     desc: "Give information about heroes' melee damage"
   },
+  patch: {
+    func: patchCmd,
+    usage: "",
+    desc: "Show link to the newest patch notes"
+  }
   /*
   speed: {
     func: speedCmd,

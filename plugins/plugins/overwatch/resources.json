@@ -2,6 +2,90 @@
   "patchnotes": "http://us.battle.net/forums/en/overwatch/topic/20745235963",
   "heroes":
   [
+     {
+      "hero": "Ana",
+      "role": "Support",
+      "difficulty": "3/3",
+      "hp": "200 Life",
+      "abilities":
+      [
+        {
+          "name": "Biotic Rifle",
+          "key": "LM",
+          "damage": "80",
+          "headshot": "no",
+          "ammo": "8",
+          "firerate": "1 rps",
+          "casttime": "",
+          "duration": "",
+          "cooldownreload": "1.5s",
+          "heals": "75",
+          "shieldstrength": "",
+          "range": "",
+          "notes": "Hip fire is projectile. Heals allies over a short time (~1 sec). Deals damage to enemies over a short time (~1 sec)."
+        },
+        {
+          "name": "Biotic Rifle (scoped)",
+          "key": "RM",
+          "damage": "80",
+          "headshot": "yes",
+          "ammo": "8",
+          "firerate": "1 rps",
+          "casttime": "",
+          "duration": "",
+          "cooldownreload": "1.5s",
+          "heals": "75",
+          "shieldstrength": "",
+          "range": "",
+          "notes": "Scoped fire is hit scan. Heals allies over a short time (~1 sec). Deals damage to enemies over a short time (~1 sec)."
+        },
+        {
+          "name": "Sleep Dart",
+          "key": "Shift",
+          "damage": "5",
+          "headshot": "no",
+          "ammo": "",
+          "firerate": "",
+          "casttime": "0.25s",
+          "duration": "5s",
+          "cooldownreload": "12s",
+          "heals": "",
+          "shieldstrength": "",
+          "range": "",
+          "notes": "Sleep effect will break on any damage."
+        },
+        {
+          "name": "Biotic Grenade",
+          "key": "E",
+          "damage": "60",
+          "headshot": "",
+          "ammo": "",
+          "firerate": "",
+          "casttime": "",
+          "duration": "5s heal boost",
+          "cooldownreload": "10s",
+          "heals": "100",
+          "shieldstrength": "",
+          "range": "5 meter explosion radius",
+          "notes": "Blocks enemies' heals. Boosts heals of Ana and her allies. Does not boost health packs or payload heal."
+        },
+        {
+          "name": "Nanoboost",
+          "key": "Q",
+          "damage": "",
+          "headshot": "no",
+          "ammo": "",
+          "firerate": "",
+          "casttime": "",
+          "duration": "8s",
+          "cooldownreload": "",
+          "heals": "",
+          "shieldstrength": "",
+          "range": "",
+          "notes": "Boosts target's damage by 50%. Reduces all damage target takes by 50%. Increases target's movement speed."
+        }
+      ]
+    },
     {
       "hero": "Bastion",
       "role": "Defense",

@@ -239,18 +239,18 @@
         },
         {
           "name": "Mech: Defense Matrix",
-          "key": "E",
+          "key": "RM",
           "damage": "",
           "headshot": "",
           "ammo": "",
           "firerate": "",
           "casttime": "",
-          "duration": "3s",
-          "cooldownreload": "10s",
+          "duration": "4s with max charge",
+          "cooldownreload": "1s",
           "heals": "",
           "shieldstrength": "",
           "range": "15 meter long",
-          "notes": "Destroys all projectiles with its cone of effect."
+          "notes": "Destroys all projectiles with its cone of effect. Can be toggled on and off. Can be used while using Boosters (Shift)."
         },
         {
           "name": "Mech: Self-Destruct (Ult)",
@@ -259,7 +259,7 @@
           "headshot": "",
           "ammo": "",
           "firerate": "",
-          "casttime": "4s",
+          "casttime": "3s",
           "duration": "",
           "cooldownreload": "",
           "heals": "",
@@ -640,7 +640,7 @@
           "heals": "",
           "shieldstrength": "",
           "range": "",
-          "notes": ""
+          "notes": "Does full damage at longer distances (max ~30m) but only a fraction of damage at extreme ranges."
         },
         {
           "name": "Fan the Hammer (Alt-Fire)",
@@ -823,7 +823,7 @@
           "heals": "",
           "shieldstrength": "",
           "range": "15 meter link",
-          "notes": "The Damage Amp on Mercy's Staff is 30%. Mercy can gain charge from damage amping other players."
+          "notes": "The Damage Amp on Mercy's Staff is 30%. Mercy can gain charge from damage amping other players. Cannot be stacked with another Mercy damage boost."
         },
         {
           "name": "Cadueus Blaster",
@@ -1782,16 +1782,16 @@
       ]
     },
     {
-      "hero": "Zenjetta",
+      "hero": "Zenyetta",
       "role": "Support",
       "difficulty": "3/3",
-      "hp": "50 Life, 100 Shield",
+      "hp": "50 Life, 150 Shield",
       "abilities":
       [
         {
           "name": "Orb of Destruction",
           "key": "LM",
-          "damage": "45",
+          "damage": "40",
           "headshot": "yes",
           "ammo": "20",
           "firerate": "3 rps",
@@ -1806,7 +1806,7 @@
         {
           "name": "Orb of Destuction (Alt-Fire)",
           "key": "RM",
-          "damage": "35 * 5",
+          "damage": "40 * 5",
           "headshot": "yes",
           "ammo": "consumes up to 5 per shot",
           "firerate": "",
@@ -1858,10 +1858,10 @@
           "casttime": "",
           "duration": "6s",
           "cooldownreload": "",
-          "heals": "180 hps",
+          "heals": "300 hps",
           "shieldstrength": "",
           "range": "10 meter radius",
-          "notes": "Immune to damage during Trancendence but can be crowd controlled."
+          "notes": "Immune to damage during Trancendence but can be crowd controlled. Movement speed is doubled upon activation."
         }
       ]
     }

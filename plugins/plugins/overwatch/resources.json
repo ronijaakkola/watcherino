@@ -67,7 +67,7 @@
           "heals": "100",
           "shieldstrength": "",
           "range": "5 meter explosion radius",
-          "notes": "Blocks enemies' heals. Boosts heals of Ana and her allies. Does not boost health packs or payload heal."
+          "notes": "Boosts all heals to ally targets by 100%. Blocks enemies' heals. Does not boost health packs or payload heal."
         },
         {
           "name": "Nanoboost",
